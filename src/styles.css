@@ -1,8 +1,12 @@
-/* add css styles here (optional) */
+.container {
+  display: flex;
+}
 
-.test {
-  display: inline-block;
-  margin: 2em auto;
-  border: 2px solid #000;
-  font-size: 2em;
+.jsonView {
+  flex: 1;
+}
+
+.shaperController {
+  flex: 70px 0 0;
+  border: 1px solid #ccc;
 }

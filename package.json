@@ -21,7 +21,9 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react-json-view": "^1.19.1"
+  },
   "peerDependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.12.0",

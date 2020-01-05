@@ -1,23 +1,27 @@
 /**
- * @class ExampleComponent
+ * @class ReactJsonShaper
  */
 
-import * as React from 'react'
+import * as React from 'react';
 
-import styles from './styles.css'
+import styles from './styles.css';
 
-export type Props = { text: string }
+import ReactJson, {ReactJsonViewProps} from 'react-json-view';
 
-export default class ExampleComponent extends React.Component<Props> {
+export default class ReactJsonShaper extends React.Component<ReactJsonViewProps> {
   render() {
-    const {
-      text
-    } = this.props
-
     return (
-      <div className={styles.test}>
-        Example Component: {text}
+      <div className={styles.container}>
+        <div className={styles.jsonView}>
+          <ReactJson name={null} {...this.props}></ReactJson>
+        </div>
+        <div className={styles.shaperController}>
+          // TODO Shaper controller <input type="text" />
+        </div>
+        <div className={styles.jsonView}>
+          <ReactJson name={null} {...this.props}></ReactJson>
+        </div>
       </div>
-    )
+    );
   }
 }

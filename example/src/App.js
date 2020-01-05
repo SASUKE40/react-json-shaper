@@ -1,13 +1,21 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react';
 
-import ExampleComponent from 'react-json-shaper'
+import ReactJsonShaper from 'react-json-shaper';
 
 export default class App extends Component {
-  render () {
+  state = {data: {}};
+  async componentDidMount() {
+    const response = await fetch(
+      'https://jsonplaceholder.typicode.com/users/1'
+    );
+    const data = await response.json();
+    this.setState({data});
+  }
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <ReactJsonShaper src={this.state.data} />
       </div>
-    )
+    );
   }
 }
