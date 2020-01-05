@@ -4,7 +4,7 @@
   "description": "A JSON shaper component based on react.",
   "author": "SASUKE40",
   "license": "MIT",
-  "repository": "SASUKE40/react-json-shaper",
+  "repository": "https://github.com/SASUKE40/react-json-shaper.git",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",

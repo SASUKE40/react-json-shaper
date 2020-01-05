@@ -13,15 +13,13 @@ npm install --save react-json-shaper
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import * as React from "react";
 
-import MyComponent from 'react-json-shaper'
+import MyComponent from "react-json-shaper";
 
 class Example extends React.Component {
-  render () {
-    return (
-      <MyComponent />
-    )
+  render() {
+    return <MyComponent />;
   }
 }
 ```
