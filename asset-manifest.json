@@ -1,6 +1,22 @@
 {
-  "main.css": "static/css/main.65027555.css",
-  "main.css.map": "static/css/main.65027555.css.map",
-  "main.js": "static/js/main.c96a6688.js",
-  "main.js.map": "static/js/main.c96a6688.js.map"
+  "files": {
+    "main.css": "/react-json-shaper/static/css/main.a2b7b0b6.chunk.css",
+    "main.js": "/react-json-shaper/static/js/main.e5227a97.chunk.js",
+    "main.js.map": "/react-json-shaper/static/js/main.e5227a97.chunk.js.map",
+    "runtime-main.js": "/react-json-shaper/static/js/runtime-main.4d500b0b.js",
+    "runtime-main.js.map": "/react-json-shaper/static/js/runtime-main.4d500b0b.js.map",
+    "static/js/2.5814615d.chunk.js": "/react-json-shaper/static/js/2.5814615d.chunk.js",
+    "static/js/2.5814615d.chunk.js.map": "/react-json-shaper/static/js/2.5814615d.chunk.js.map",
+    "index.html": "/react-json-shaper/index.html",
+    "precache-manifest.a452a985d8fed3c7f73625b54d2b70bc.js": "/react-json-shaper/precache-manifest.a452a985d8fed3c7f73625b54d2b70bc.js",
+    "service-worker.js": "/react-json-shaper/service-worker.js",
+    "static/css/main.a2b7b0b6.chunk.css.map": "/react-json-shaper/static/css/main.a2b7b0b6.chunk.css.map",
+    "static/js/2.5814615d.chunk.js.LICENSE": "/react-json-shaper/static/js/2.5814615d.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d500b0b.js",
+    "static/js/2.5814615d.chunk.js",
+    "static/css/main.a2b7b0b6.chunk.css",
+    "static/js/main.e5227a97.chunk.js"
+  ]
 }
